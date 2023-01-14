@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WEBSITE</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+<body>
+<section id="home">
+
+	<img src="frontdesign.gif" class="design1">
+	<img src="arrow.png" class="design2">
+	
+
+	<div class="home-text">
+		<h1>Hello, I'm</h1>
+		<h2>Francene</h2>
+		<p>Welcome to my</p>
+		<br><br><br>
+		<br><br>
+		<br><br><br>
+			<a href="#profile" type="button" class="btn"><b>PORTFOLIO</b></a>
+		</div>	
+		</div>
+</section>
+<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href="#home">HOME</a></li>
+		<li><a href="#profile">PROFILE</a></li>
+		<li><a href="#fambac">FAMILY</a></li>
+		<li><a href="#hobby">HOBBIES</a></li>
+		<li><a href="#talent">SKILLS/TALENT</a></li>
+		<li><a href="#SAT">STRENGTH AND WEAKNESSES</a></li>
+		<li><a href="#job">CAREER</a></li>
+	</ul>
+	</nav>
+</div>
+<div id="menuBtn">
+	<img src="menu.png" id="menu">
+</div>
+
+<!--Profile-->
+
+<section id="profile">
+	<div class="about">
+		<br><br><br>
+		<br><br><br>
+		<br><br><br>
+		<p>ABOUT ME</p>
+		<h1>profile</h1>
+		<br><br><br>
+		<br>
+		<h2> Greetings to everyone! I'm Francene Doroty B. BorilIa
+			but you're free to call me France. I am 18 years 
+			old and I currently live in Pinagbuhatan Pasig city. 
+			I have always been fond of watching 
+			movies, especially horror, suspense, and thriller 
+			movie, as well as editing videos either for academics or 
+			just for entertainment and that is also one of 
+			the reasons why I pursue this course. 
+			Moreover, I am a person who loves to explore 
+			and discover new things. I'm very grateful to 
+			be part of this class, I hope to learn more and 
+			use what I learn in a real-life situation. 
+			Further, I am looking forward to a great school year 
+			ahead. Nice meeting you all thank you! </h2>
+		
+	</div>
+</section>
+
+
+<!--Family-->
+
+<section id="fambac">
+	<div class="family">
+		<br><br><br>
+		<br><br>
+		<br><br>
+		<br><br>
+		
+		
+		
+	</div>
+</section>
+
+<!--hobbies-->
+
+<section id="hobby">
+	<div class="hobbies">
+		<br><br><br>
+		<br><br><br>
+		<br><br>
+		
+		<br>
+		<br>
+		<br>
+		
+		
+	</div>
+</section>
+
+<!--skills-->
+
+<section id="talent">
+	<div class="skills">
+		<br><br>
+		<br><br><br>
+		<br><br>
+	
+		
+	</div>
+</section>
+
+<!--sAw-->
+
+<section id="SAT">
+	<div class="sAw">
+		<br><br><br>
+		<br><br><br>
+		
+		
+	</div>
+</section>
+
+<!--career-->
+
+<section id="job">
+	<div class="career">
+		<br><br><br>
+		<br><br><br>
+		<br><br><br>
+		<br><br><br>
+		<h1>CAREER</h1>
+		<p>Job position</p>
+		<br><br><br>
+		<a>The career or job position that I see myself after graduation is data entry operator; this job might help me to get experience after graduation in the environment of IT industry. In addition, I see this temporary position as a stepping stone to my future career; I will use my work experience in the IT industry to get a better credential and excel in the IT field. However, my dream job is to become a security specialist who protects companies' or organizations' systems against potential threats, which can protect the company, progress smoothly, and maintain its reputation. Being in this position takes a lot of responsibility, and different factors must be considered. Therefore, I would be grateful and honored if I become one of the security specialists. To be a security specialist is both an honor and a responsibility; if I get this position, I will use my knowledge and skills to contribute to the company's progress. </a>
+	</div>
+</section>
+
+
+	<script>
+		var menuBtn = document.getElementById("menuBtn")
+		var sideNav = document.getElementById("sideNav")
+		var menu = document.getElementById("menu")
+
+sideNav.style.left = "-250px"
+
+menuBtn.onclick = function(){
+		if(sideNav.style.left == "-250px"){
+			sideNav.style.left = "0";
+			menu.src = "close.png";
+		}
+		else{
+			sideNav.style.left= "-250px";
+			menu.src = "menu.png";
+		}
+	}
+
+	var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 1000,
+	speedAsDuration: true
+});
+</script>
+
+</body>
+</html>
+
